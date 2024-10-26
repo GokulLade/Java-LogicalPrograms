@@ -1,8 +1,8 @@
 package com.nit.logical.string.day07;
 
+
 //Finding number in string
-public class FindingTheNumberInStringProgram04 {
-	
+public class FindingTheNumberInStringProgram04 {
 	public static void main(String[] args) 
 	{
 		String str="Hello Gokul My Contact Number is +912929193401";
@@ -18,6 +18,4 @@ public class FindingTheNumberInStringProgram04 {
         }
 		
 	}
-
-
 }
