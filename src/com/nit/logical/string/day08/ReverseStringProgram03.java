@@ -1,6 +1,5 @@
 package com.nit.logical.string.day08;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 // Reverse the String
