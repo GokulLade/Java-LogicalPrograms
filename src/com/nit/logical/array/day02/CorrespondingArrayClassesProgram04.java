@@ -6,6 +6,7 @@ class Student{
 
 public class CorrespondingArrayClassesProgram04 {
 	public static void main(String[] args) {
+		
 		byte arr1[]=new byte[3];
 		System.out.println(arr1.getClass().getName());
 		

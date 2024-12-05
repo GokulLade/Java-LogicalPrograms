@@ -2,7 +2,7 @@ package com.nit.logical.array.day05;
 
 /*
  Q3. Given an array of integers length 3, return an array with the elements 
-	 "rotated left" so {1, 2, 3} will become  {2, 3, 1}.
+	 "rotated left" so {1, 2, 3} will become  {2, 3, 1}. 
  */
 import java.util.Arrays;
 
