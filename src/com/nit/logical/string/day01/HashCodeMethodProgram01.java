@@ -21,8 +21,8 @@ public class HashCodeMethodProgram01 {
 		String name2="gokul";
 		String name3="Gokul";
 		
-		System.out.println(name1.hashCode()==name2.hashCode());
-		System.out.println(name1.hashCode()==name3.hashCode());
+		System.out.println(name1.hashCode()==name2.hashCode()); //flase
+		System.out.println(name1.hashCode()==name3.hashCode()); //true
 		System.out.println(name1.hashCode());
 		
 

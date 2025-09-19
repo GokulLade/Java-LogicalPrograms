@@ -24,7 +24,7 @@ public class StringBuilderClassProgram03 {
 		
 		StringBuilder sb1=new StringBuilder("Gokul");
 		
-		System.out.println(sb1);
+		System.out.println(sb1); //Gokul
 		
 		StringBuilder sb2=sb1.append(" Lade");
 		System.out.println(sb1);

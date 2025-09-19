@@ -21,32 +21,33 @@ Q1. What is String constant Pool?
  */
 public class StringConstantPoolProgram01 {
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args)
 	{
 		String s1=new String("Abc");
 		String s2=new String("Abc");
-		System.out.println(s1==s2);
+		System.out.println(s1==s2); //flase
 
 		String s3=new String("Abc");
 		String s4="Abc";
-		System.out.println(s3==s4);
+		System.out.println(s3==s4); //false
 
 		String s5="Abc";
 		String s6="Abc";
-		System.out.println(s5==s6);
+		System.out.println(s5==s6); //true
 			 
 		String s7="Abc";
 		String s8="def";
-		System.out.println(s7==s8);
+		System.out.println(s7==s8); //flase
 			  
 		String s9="Abc";
 		String s10=""+ "Abc";
-		System.out.println(s9==s10);
+		System.out.println(s9==s10); //true
 			  
 		String s11="Abc";
 		String s12=" ";
 		s12=s12.concat(s11);
-		System.out.println(s11==s12);
+		System.out.println(s11==s12); //flase
 			  
 		String s13="Abc";
 		String s14=s13.concat("def");

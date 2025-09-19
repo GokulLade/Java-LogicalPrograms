@@ -41,7 +41,7 @@ public class SubStringMethodProgram02 {
 		 String s = "hello everyone";
 		
 		
-		 System.out.println(s.equals("hello"));
+		 System.out.println(s.equals("hello")); 
 		 System.out.println(s.toString());
 		 System.out.println(s.compareTo("Hello"));
 		 System.out.println(s.indexOf('l'));

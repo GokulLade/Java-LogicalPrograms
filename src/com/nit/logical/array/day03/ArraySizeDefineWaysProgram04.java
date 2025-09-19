@@ -26,9 +26,9 @@ public class ArraySizeDefineWaysProgram04 {
 	    int [] arr4=new int[s];
 	    System.out.println(arr4.length);
 	    
-	    //long l=45l;
-	    //int [] arr5=new int[l];-----------------------compile time error in this line 
-	    //System.out.println(arr5.length);
+//	    long l=45l;
+//	    int [] arr5=new int[l];//-----------------------compile time error in this line 
+//	    System.out.println(arr5.length);
 
 	}
 
